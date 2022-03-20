@@ -3,5 +3,5 @@
 	name = Edhar Rybak
 	username = erybak
 [init]
-	defaultBranch = master
+	defaultBranch = main 
 
