@@ -3,5 +3,17 @@
 	name = Edhar Rybak
 	username = erybak
 [init]
-	defaultBranch = main 
+	defaultBranch = main
+[core]
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
 
+[pull]
+	ff = only
